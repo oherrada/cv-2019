@@ -1,0 +1,93 @@
+body {
+       background-color: #5893d4;
+       font-family: 'Cuprum', sans-serif;
+       margin-top: 0px;
+       text-align: center;
+     }
+
+hr { border: 5px  #eeeeee;
+     border-style: dashed;
+    border-width: thin;
+    border-radius: 10%/50%;
+    width: 15%;
+   }
+
+
+
+.name { position: absolute;
+        top: 210px; left: 60%;
+        color: #f8b739;
+        font-family: 'Courgette', cursive;
+        font-size: 3rem;
+      }
+
+
+.dev { position: absolute;
+       top: 255px; left: 60%;
+       color: #f8b739;
+       font-family: 'Pacifico', cursive;
+       font-size: 2rem;
+      }
+
+
+
+
+
+.container1{
+             position: relative;
+
+             text-align: center;
+
+
+           }
+
+.city{ position: relative;
+       padding-top: 100px;
+       width: 100%;
+     }
+
+
+.cloud1{ position: absolute;
+         top: 328px; left: 160px;
+         width: 9%;
+       }
+
+.cloud2{ position: absolute;
+         top: 250px; left: 500px;
+       }
+
+.OHLogo{ height: 100px;
+         width: 150px;
+       }
+
+.devimg{ height: 100px;
+         width: 100px;
+       }
+.contact{ height: 100px;
+         width: 100px;
+       }
+
+
+.space{
+        padding: 80px;
+}
+
+
+
+.artist{ position: relative;
+         top: 95px;
+         height: 100px;
+         width: 100px;
+       }
+
+#pencil1{ position: relative;
+          bottom: 10px;
+          height:100px;
+          width: 100px;
+        }
+
+.container2{
+             position: relative;
+
+             text-align: center;
+          }

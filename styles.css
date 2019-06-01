@@ -20,10 +20,10 @@ hr { border: 5px  #eeeeee;
      }
 
 .name{ position: absolute;
-       top: 16%; left: 60%;
+       top: 19%; left: 60%;
        color: #f6f5f5;
        font-family: 'Covered By Your Grace', cursive;
-       font-size: 5vw;
+       font-size: 6vw;
       }
 
 .dev{ position: absolute;

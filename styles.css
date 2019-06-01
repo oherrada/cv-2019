@@ -22,14 +22,14 @@ hr { border: 5px  #eeeeee;
 .name{ position: absolute;
        top: 16%; left: 58%;
        color: #f6f5f5;
-       font-family: 'Permanent Marker', cursive;
+       font-family: 'Covered By Your Grace', cursive;
        font-size: 4vw;
       }
 
 .dev{ position: absolute;
       top: 23%; left: 61%;
       color: #f6f5f5;
-      font-family: 'Amatic SC', cursive;
+      font-family: 'Shadows Into Light', cursive;
       font-size: 3vw;
     }
 

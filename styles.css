@@ -1,5 +1,4 @@
-body {
-       background-color: #6b90ca;
+body { background-color: #6b90ca;
        font-family: 'Overpass', sans-serif;
        margin-top: 0px;
        text-align: center;
@@ -7,53 +6,41 @@ body {
 
 hr { border: 5px  #eeeeee;
      border-style: dashed;
-    border-width: thin;
-    border-radius: 10%/50%;
-    width: 15%;
-   }
+     border-width: thin;
+     border-radius: 10%/50%;
+     width: 15%;
+    }
 
-
-
-.name { position: absolute;
-        top: 210px; left: 60%;
-        color: #f6f5f5;
-        font-family: 'Amatic SC', cursive;
-        font-size: 3rem;
-      }
-
-
-.dev { position: absolute;
-       top: 255px; left: 63%;
-       color: #f6f5f5;
-       font-family: 'Permanent Marker', cursive;
-       font-size: 2rem;
-      }
-
-
-
-
-
-.container1{
-             position: relative;
-
-             text-align: center;
-
-
-           }
-
-.city{ position: relative;
-       padding-top: 100px;
-       width: 100%;
+.city{ background: url("https://github.com/oherrada/cv-2019/blob/master/city.png?raw=true") no-repeat;
+       position: relative;
+       margin-top: 20%;
+       padding-top: 40%;
+       padding-bottom: 30%;
+       background-size: 100%;
      }
 
+.name{ position: absolute;
+       top: 16%; left: 58%;
+       color: #f6f5f5;
+       font-family: 'Amatic SC', cursive;
+       font-size: 4vw;
+      }
+
+.dev{ position: absolute;
+      top: 23%; left: 61%;
+      color: #f6f5f5;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 3vw;
+    }
 
 .cloud1{ position: absolute;
-         top: 328px; left: 160px;
-         width: 9%;
+         top: 24%; left: 12%;
+         width: 10%;
        }
 
 .cloud2{ position: absolute;
-         top: 250px; left: 500px;
+         top: 15%; left: 37%;
+         width: 13%;
        }
 
 .OHLogo{ height: 100px;
@@ -63,16 +50,13 @@ hr { border: 5px  #eeeeee;
 .devimg{ height: 100px;
          width: 100px;
        }
+
 .contact{ height: 100px;
          width: 100px;
-       }
+        }
 
-
-.space{
-        padding: 80px;
-}
-
-
+.space{ padding: 80px;
+      }
 
 .artist{ position: relative;
          top: 95px;
@@ -86,8 +70,6 @@ hr { border: 5px  #eeeeee;
           width: 100px;
         }
 
-.container2{
-             position: relative;
-
+.container2{ position: relative;
              text-align: center;
-          }
+            }

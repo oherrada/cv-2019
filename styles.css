@@ -1,75 +1,249 @@
-body { background-color: #6b90ca;
-       font-family: 'Overpass', sans-serif;
-       margin-top: 0px;
-       text-align: center;
-     }
+body {
+  background-color: #6b90ca;
+  font-family: 'Overpass', sans-serif;
+  margin-top: 0;
+  text-align: center;
+  color: #f6f6f6;
+}
 
-hr { border: 5px  #eeeeee;
-     border-style: dashed;
-     border-width: thin;
-     border-radius: 10%/50%;
-     width: 15%;
-    }
+em {
+  color: rgb(232, 222, 106);
+}
 
-.city{ background: url("https://github.com/oherrada/cv-2019/blob/master/city.png?raw=true") no-repeat;
-       position: relative;
-       margin-top: 20%;
-       padding-top: 40%;
-       padding-bottom: 30%;
-       background-size: 100%;
-     }
+h3 {
+  color: rgb(232, 222, 106);
+  padding-top: 50px;
+  font-weight: bolder;
+  font-size: 25px;
+}
 
-.name{ position: absolute;
-       top: 17%; left: 59%;
-       color: #f6f5f5;
-       font-family: 'Covered By Your Grace', cursive;
-       font-size: 5vw;
-      }
+.h1, .h3 {
+  position: relative;
+  left: 11%;
+}
 
-.dev{ position: absolute;
-      top: 23%; left: 61%;
-      color: #f6f5f5;
-      font-family: 'Shadows Into Light', cursive;
-      font-size: 3vw;
-    }
+.h2 {
+  position: relative;
+  right: 8%;
+}
 
-.cloud1{ position: absolute;
-         top: 24%; left: 12%;
-         width: 10%;
-       }
+div {
+  padding-bottom: 50px;
+}
 
-.cloud2{ position: absolute;
-         top: 15%; left: 37%;
-         width: 13%;
-       }
+.outhr {
+  border-style: double;
+  width: 10%;
+  color: #476e9e;
+}
 
-.OHLogo{ height: 100px;
-         width: 150px;
-       }
+.layer {
+  background-color: rgba(248, 247, 216, 0.2);
+  position: absolute;
+  top: 0;
+  width: 67%;
+  height: 80%;
+}
 
-.devimg{ height: 100px;
-         width: 100px;
-       }
+.layer2 {
+  background-color: rgba(248, 247, 216, 0.1);
+  position: absolute;
+  margin: 15px auto 0px;
+  right: 0;
+  left: 0;
+  width: 99%;
+  height: 20%;
+}
 
-.contact{ height: 100px;
-         width: 100px;
-        }
+.h1 {
+  text-decoration: none;
+}
 
-.space{ padding: 80px;
-      }
+.h2 {
+  text-decoration: none;
+}
 
-.artist{ position: relative;
-         top: 95px;
-         height: 100px;
-         width: 100px;
-       }
+.h3 {
+  text-decoration: none;
+}
 
-#pencil1{ position: relative;
-          bottom: 10px;
-          height:100px;
-          width: 100px;
-        }
+.p1 {
+  clear: right;
+  padding: 0 20px;
+}
 
-.container2{ position: relative;
-             text-align: center;
-            }
+.p2 {
+  clear: left;
+  padding: 0 20px;
+}
+
+.skills, .owner, .author {
+  position: relative;
+  padding-left: 25%;
+  margin-bottom: 50px;
+  width: 50%;
+  line-height: 2;
+}
+
+.city {
+  background: url("https://github.com/oherrada/cv-2019/blob/master/city.png?raw=true") no-repeat;
+  position: relative;
+  margin-top: 20%;
+  padding-bottom: 60%;
+  background-size: 100%;
+}
+
+.name {
+  position: absolute;
+  top: 17%;
+  left: 59%;
+  color: #f6f5f5;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 5vw;
+}
+
+.dev {
+  position: absolute;
+  top: 23%;
+  left: 61%;
+  color: #f6f5f5;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3vw;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 28%;
+  left: 12%;
+  width: 10%;
+}
+
+.cloud2 {
+  position: absolute;
+  top: 18%;
+  left: 37%;
+  width: 13%;
+}
+
+.OHLogo {
+  position: relative;
+  height: 100px;
+  width: 150px;
+}
+
+.devimg {
+  position: relative;
+  padding-left: 10%;
+  margin: 20px auto;
+  right: 3%;
+  float: right;
+  height: 100px;
+  width: 100px;
+}
+
+.elm {
+  position: relative;
+  padding-left: 10%;
+  margin: 20px auto;
+  right: 3%;
+  float: right;
+  height: 120px;
+  width: 120px;
+}
+
+.contact {
+  height: 100px;
+  width: 100px;
+}
+
+.space {
+  padding: 80px;
+}
+
+.author {
+  position: relative;
+}
+
+.artist {
+  position: relative;
+  padding-right: 5%;
+  margin: 20px auto;
+  left: 3%;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+}
+
+.contact-me {
+  padding-bottom: 0;
+  left: 5px;
+}
+
+.contact {
+  height: 50px;
+  width: 50px;
+}
+
+.btn {
+  background-color: #476e9e;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Overpass', sans-serif;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #87a2c7;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer-link {
+  color: rgb(232, 222, 106);
+  font-family: 'Overpass', sans-serif;
+  text-decoration: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  top: 40px;
+}
+
+.booklink {
+  color: rgb(232, 222, 106);
+  font-family: 'Overpass', sans-serif;
+  text-decoration: none;
+  padding-left: 2px;
+  padding-right: 2px;
+  position: relative;
+}
+
+.copyright {
+  position: relative;
+  top: 40px;
+}
+
+.bottomfooter-link {
+  color: #476e9e;
+  font-family: 'Overpass', sans-serif;
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.getintouch {
+  line-height: 2;
+  margin-top: 20px;
+}
